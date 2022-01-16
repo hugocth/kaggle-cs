@@ -33,7 +33,7 @@ Pour installer les autres modules nécessaires, exécuter :
 
 Il y a une bon moyen d'éviter les problèmes d'installation : c'est de lancer tout le projet dans un google colab. J'ai créé un repo github dont l'URL est :
 
-`https://gitlab.com/hcth/kaggle-cs`
+`https://github.com/hugocth/kaggle-cs`
 
 Vous n'avez qu'à suivre les instructions de ce tuto de Stanford pour lancer le projet dans le colab :
 
