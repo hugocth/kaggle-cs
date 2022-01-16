@@ -4,9 +4,7 @@ Hello les gens, je vous écris un README rapide comme ça tout le monde bossera 
 
 ## Téléchargement de tous les fichiers utiles
 
-Avant tout, faites un git clone de ce repo dans un fichier sur votre ordi. Etant donné que GitHub ne permet pas d'upload des fichiers de plus de 100Mo, il faudra rajouter les fichiers `train.geojson` et `test.geojson` à la main dans ce dossier, à partir de ce lien :
-
-(https://www.kaggle.com/c/centralesypelec-ml2022-course/data)
+Avant tout, faites un git clone de ce repo dans un fichier sur votre ordi. Etant donné que GitHub ne permet pas d'upload des fichiers de plus de 100Mo, il faudra rajouter les fichiers `train.geojson` et `test.geojson` à la main dans ce dossier, à partir de ce [lien](https://www.kaggle.com/c/centralesypelec-ml2022-course/data).
 
 ## Setup de l'environnement commun 
 
@@ -55,12 +53,8 @@ Exécuter les 2 premières cellules (en gros toute la section "Test code"). Si �
 
 Il y a un bon moyen d'éviter les problèmes d'installation : c'est de lancer tout le projet dans un google colab. J'ai créé un repo github dont l'URL est :
 
-(https://github.com/hugocth/kaggle-cs)
+https://github.com/hugocth/kaggle-cs
 
-Vous n'avez qu'à suivre les instructions de ce tuto de Stanford pour lancer le projet dans le colab :
+Vous n'avez qu'à suivre les instructions de ce [tuto de Stanford](https://cs230.stanford.edu/section/2/colab.pdf) pour lancer le projet dans le Colab.
 
-(https://cs230.stanford.edu/section/2/colab.pdf)
-
-Il faudra alors mettre les fichiers `test.geojson` et `train.geojson` dans votre Google Drive et suivre ce tuto pour les importer dans l'espace de travail Colab :
-
-(https://colab.research.google.com/notebooks/io.ipynb)
+Il faudra alors mettre les fichiers `test.geojson` et `train.geojson` dans votre Google Drive et suivre [ce tuto](https://colab.research.google.com/notebooks/io.ipynb) pour les importer dans l'espace de travail Colab.
