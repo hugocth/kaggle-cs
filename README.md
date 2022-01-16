@@ -47,7 +47,7 @@ Exécuter les 2 premières cellules (en gros toute la section "Test code"). Si �
 
 ## Une autre option : utiliser Google Colab
 
-Il y a une bon moyen d'éviter les problèmes d'installation : c'est de lancer tout le projet dans un google colab. J'ai créé un repo github dont l'URL est :
+Il y a un bon moyen d'éviter les problèmes d'installation : c'est de lancer tout le projet dans un google colab. J'ai créé un repo github dont l'URL est :
 
 `https://github.com/hugocth/kaggle-cs`
 
