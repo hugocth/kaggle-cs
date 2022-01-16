@@ -56,7 +56,7 @@ Il y a un bon moyen d'éviter les problèmes d'installation : c'est de lancer to
 ```
 !git clone https://github.com/hugocth/kaggle-cs
 %cd kaggle-cs/
-pip install -r requirements.txt
+!pip install -r requirements.txt
 ```
 Il faudra alors mettre les fichiers `test.geojson` et `train.geojson` dans votre Google Drive et suivre [ce tuto](https://colab.research.google.com/notebooks/io.ipynb) pour les importer dans l'espace de travail Colab.
 
