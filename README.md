@@ -29,7 +29,7 @@ Cependant, sur windows, il y a de fortes chances que, lors de l'installation, il
 
 `error: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/`
 
-Dans ce cas, il faut suivre le lien et télécharger l'IDE Visual Studio, puis, lors de l'installation, télécharger Visual C++ (attention ça prend à peu près 7Go d'espace).
+Dans ce cas, il faut suivre ce [lien](https://visualstudio.microsoft.com/visual-cpp-build-tools/) et télécharger l'IDE Visual Studio, puis, lors de l'installation, télécharger Visual C++ (attention ça prend à peu près 7Go d'espace).
 
 Pour installer les autres modules nécessaires, exécuter :
 
