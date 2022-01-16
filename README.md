@@ -31,18 +31,6 @@ Pour installer les autres modules nécessaires, exécuter :
 
 `python -m pip install --user -r requirements.txt`
 
-Il y a une bon moyen d'éviter les problèmes d'installation : c'est de lancer tout le projet dans un google colab. J'ai créé un repo github dont l'URL est :
-
-`https://github.com/hugocth/kaggle-cs`
-
-Vous n'avez qu'à suivre les instructions de ce tuto de Stanford pour lancer le projet dans le colab :
-
-`https://cs230.stanford.edu/section/2/colab.pdf`
-
-Il faudra alors mettre les fichiers `test.geojson` et `train.geojson` dans votre Google Drive et suivre ce tuto pour les importer dans l'espace de travail Colab :
-
-`https://colab.research.google.com/notebooks/io.ipynb`
-
 ## Utiliser l'environnement comme kernel sur un jupyter notebook
 
 Pour rajouter l'environnement à la liste des kernels :
@@ -56,3 +44,17 @@ Pour lancer le notebook :
 ## Test pour savoir si tout fonctionne bien
 
 Exécuter les 2 premières cellules (en gros toute la section "Test code"). Si à la fin le print "Everything is fine !" se passe bien, alors tout est bon !
+
+## Une autre option : utiliser Google Colab
+
+Il y a une bon moyen d'éviter les problèmes d'installation : c'est de lancer tout le projet dans un google colab. J'ai créé un repo github dont l'URL est :
+
+`https://github.com/hugocth/kaggle-cs`
+
+Vous n'avez qu'à suivre les instructions de ce tuto de Stanford pour lancer le projet dans le colab :
+
+`https://cs230.stanford.edu/section/2/colab.pdf`
+
+Il faudra alors mettre les fichiers `test.geojson` et `train.geojson` dans votre Google Drive et suivre ce tuto pour les importer dans l'espace de travail Colab :
+
+`https://colab.research.google.com/notebooks/io.ipynb`
