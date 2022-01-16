@@ -52,10 +52,12 @@ Exécuter les 2 premières cellules (en gros toute la section "Test code"). Si �
 
 ## Une autre option : utiliser Google Colab
 
-Il y a un bon moyen d'éviter les problèmes d'installation : c'est de lancer tout le projet dans un google colab. J'ai créé un repo github dont l'URL est :
-
-https://github.com/hugocth/kaggle-cs
-
-Vous n'avez qu'à suivre les instructions de ce [tuto de Stanford](https://cs230.stanford.edu/section/2/colab.pdf) pour lancer le projet dans le Colab.
-
+Il y a un bon moyen d'éviter les problèmes d'installation : c'est de lancer tout le projet dans un Google Colab. Pour cela, lancez le Colab et, dans la première cellule, écrivez :
+```
+!git clone https://github.com/hugocth/kaggle-cs
+%cd kaggle-cs/
+pip install -r requirements.txt
+```
 Il faudra alors mettre les fichiers `test.geojson` et `train.geojson` dans votre Google Drive et suivre [ce tuto](https://colab.research.google.com/notebooks/io.ipynb) pour les importer dans l'espace de travail Colab.
+
+Vous pouvez ensuite copier-coller les cellules du notebook dans le Colab et faire le test !
