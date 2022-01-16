@@ -47,6 +47,7 @@ Pour lancer le notebook :
 
 ## Test pour savoir si tout fonctionne bien
 
+Dans le menu tout en haut, aller dans Kernel > Change kernel et sélectionner "ML_geopandas".
 Exécuter les 2 premières cellules (en gros toute la section "Test code"). Si à la fin le print "Everything is fine !" se passe bien, alors tout est bon !
 
 ## Une autre option : utiliser Google Colab
