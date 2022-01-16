@@ -2,6 +2,12 @@
 
 Hello les gens, je vous écris un README rapide comme ça tout le monde bossera sur le même environnement, ça facilitera le debug.
 
+## Téléchargement de tous les fichiers utiles
+
+Avant tout, faites un git clone de ce repo dans un fichier sur votre ordi. Etant donné que GitHub ne permet pas d'upload des fichiers de plus de 100Mo, il faudra rajouter les fichiers `train.geojson` et `test.geojson` à la main dans ce dossier, à partir de ce lien :
+
+`https://www.kaggle.com/c/centralesypelec-ml2022-course/data`
+
 ## Setup de l'environnement commun 
 
 Lancez un terminal anaconda (le plus intuitif est de lancer VSCode avec Anaconda et d'ouvrir un terminal shell ou bash).
