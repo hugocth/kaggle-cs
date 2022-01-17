@@ -54,9 +54,16 @@ Exécuter les 2 premières cellules (en gros toute la section "Test code"). Si �
 
 Il y a un bon moyen d'éviter les problèmes d'installation : c'est de lancer tout le projet dans un Google Colab. Pour cela, lancez le Colab et, dans la première cellule, écrivez :
 ```
+# Environment setup
+
 !git clone https://github.com/hugocth/kaggle-cs
 %cd kaggle-cs/
 !pip install -r requirements.txt
+
+# Drive mount 
+
+from google.colab import drive
+drive.mount('/content/drive')
 ```
 Il faudra alors mettre les fichiers `test.geojson` et `train.geojson` dans votre Google Drive et suivre [ce tuto](https://colab.research.google.com/notebooks/io.ipynb) pour les importer dans l'espace de travail Colab.
 
