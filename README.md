@@ -59,6 +59,7 @@ Il y a un bon moyen d'éviter les problèmes d'installation : c'est de lancer to
 !git clone https://github.com/hugocth/kaggle-cs
 %cd kaggle-cs/
 !pip install -r requirements.txt
+%cd ..
 
 # Drive mount 
 
