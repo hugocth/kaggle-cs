@@ -73,6 +73,7 @@ Pygments==2.9.0
 pyparsing==2.4.7
 pyrsistent==0.17.3
 python-dateutil==2.8.1
+pytorch_tabnet
 pytz==2021.1
 pyzmq==22.1.0
 qtconsole==5.1.0
